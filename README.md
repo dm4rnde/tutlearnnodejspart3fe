@@ -18,6 +18,8 @@ Instructions of use:
 	
 	`export NODE_ENV=development`
 
+	`sed -i "" "s/normalizePort(process.env.PORT || '3000'/normalizePort(process.env.PORT || '8081'/g" bin/www`
+
 - Verify. Tests should all pass:
 
 	`npm test`
