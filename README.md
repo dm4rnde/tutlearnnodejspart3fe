@@ -4,7 +4,7 @@
 Source code for tutorial https://dm4rnde.com/frend-ex1.
 
 
-Having architected the back end components (installed mongodb and set up database users; and the RESTful interface), this tutorial will go through by adding fron end to our web app.  
+Having architected the back end components (mongodb; RESTful interface), this tutorial will attempted to complete all by by adding front end component to our web app.  
 
 Instructions of use:
 
