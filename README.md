@@ -8,7 +8,7 @@ Instructions of use:
 
 *PRECONDITION: MongoDB has been installed and new db (that 
 web app is going to use) has been prepared -- try going through monodb_setup_users.txt to
-set up users (install and prepare of db with longer description is at https://dm4rnde.com/mongodb-setup).*
+set up users (longer description on MongoDB install and users setup is described in https://dm4rnde.com/mongodb-setup).*
 
 - Clone current project
 
