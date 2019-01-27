@@ -2,7 +2,7 @@
 planetsmoonsapp/node_modules/
 
 # generated files
-bin/
+#bin/
 gen/
 .class
 target/
