@@ -6,6 +6,10 @@ Source code for tutorial https://dm4rnde.com/frend-ex1.
 
 Instructions of use:
 
+- ***PRECONDITION: MongoDB has been set up. To prepare database (that 
+web app is going to use) try going through monodb_setup_users.txt 
+(setup of MongoDB and longer description is at https://dm4rnde.com/mongodb-setup).***
+
 - Clone current project
 
 - 	`cd tutlearnnodejspart3fe/planetsmoonsapp/`	
@@ -27,11 +31,4 @@ Instructions of use:
 	`npm start`
 	
 	- In browser open: `localhost: 8081`. Verify that web app's front end functions.
-	
-	
-## Notes
-
-- ***This app uses MongoDB. To prepare database (that 
-web app is going to use) try going through monodb_setup_users.txt 
-(setup of MongoDB and longer description is at https://dm4rnde.com/mongodb-setup).***
-   
+	   
