@@ -6,7 +6,9 @@ Source code for tutorial https://dm4rnde.com/frend-ex1.
 
 Instructions of use:
 
-- Go through monodb_setup_users.txt to set up users for new db under MongoDB (*longer description on MongoDB install and users setup described in https://dm4rnde.com/mongodb-setup*).
+- Go through monodb_setup_users.txt 
+
+This will set up users for db under MongoDB *(longer description on MongoDB install and users setup described in https://dm4rnde.com/mongodb-setup)*.
 
 - Clone current project
 
