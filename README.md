@@ -19,5 +19,15 @@ Instructions of use:
 	`npm install`
 	
 	`export NODE_ENV=development`
+
+- Verify. Tests should all pass:
+
+	`npm test`
+
+- Starting web app:
+
+	`npm start`
+	
+	- Verify, in browser open: `localhost: 8081`
 	
 	
