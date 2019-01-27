@@ -1,4 +1,4 @@
-# Create a 'user admin' user (admin of all users)
+## Create a 'user admin' user (admin of all users) ##
 
 #terminal 1
 mongod
@@ -19,7 +19,7 @@ mongod
 exit
 
 
-#Create a 'database owner' user
+## Create a 'database owner' user ##
 
 #terminal 1
 mongod --auth --port 27017 --dbpath /data/db
@@ -42,7 +42,7 @@ mongod --auth --port 27017 --dbpath /data/db
 	exit
 
 
-	#Create a user for all CRUD operations
+## Create a user for all CRUD operations ##
 	
 	mongo --port 27017 -u "dbofpmdbj1y" -p "Jg7R.2rQ6,Nt" planetsmoonsdbdev
 	

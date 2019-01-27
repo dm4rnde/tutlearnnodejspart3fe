@@ -6,9 +6,9 @@ Source code for tutorial https://dm4rnde.com/frend-ex1.
 
 Instructions of use:
 
-- ***PRECONDITION: MongoDB has been set up. To prepare database (that 
-web app is going to use) try going through monodb_setup_users.txt 
-(setup of MongoDB and longer description is at https://dm4rnde.com/mongodb-setup).***
+*PRECONDITION: MongoDB has been installed and new db (that 
+web app is going to use) has been prepared -- try going through monodb_setup_users.txt to
+set up users (install and prepare of db with longer description is at https://dm4rnde.com/mongodb-setup).*
 
 - Clone current project
 
