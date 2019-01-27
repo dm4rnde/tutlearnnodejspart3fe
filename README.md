@@ -28,6 +28,6 @@ Instructions of use:
 
 	`npm start`
 	
-	- Verify, in browser open: `localhost: 8081`. Web app's fron end should function.
+	- Verify, in browser open: `localhost: 8081`. Web app's front end should function.
 	
 	
