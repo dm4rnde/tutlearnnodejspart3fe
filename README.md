@@ -11,7 +11,7 @@ Having architected the back end components (mongodb; RESTful API), this tutorial
 
 - Go through monodb_setup_users.txt 
 
-	This will set up users for db (that current web app is going to use) under MongoDB *(some help on MongoDB install and users setup could be also found at https://dm4rnde.com/mongodb-setup)*.
+	This will set up users for db (that current web app is going to use) under MongoDB *(some help on MongoDB install and users setup: https://dm4rnde.com/mongodb-setup)*.
 
 - Clone current project
 
