@@ -1,0 +1,35 @@
+# Project specific files #
+planetsmoonsapp/node_modules/
+
+# generated files
+bin/
+gen/
+.class
+target/
+__pycache__
+
+# Eclipse project files
+.classpath
+.settings
+.project
+
+# Eclipse/pydev files
+.pydevproject
+ 
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# OS generated files 
+*/.DS_Store
+.DS_Store
+.DS_Store?
+/.DS_Store
+.Trashes
+Thumbs.db
+*~
+.~*#
+.*.swp
+

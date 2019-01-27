@@ -1,0 +1,160 @@
+body {
+  font: 14px "Lucida Sans", sans-serif;
+}
+
+/* Add a bit of responsiveness. */
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  cursor: pointer;
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33022233;
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1), 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.menu li:hover {
+  background-color: #33022211;
+}
+
+/* For mobile phones: */
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-3 {
+    width: 25%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+}
+
+#moons-area-moons-tbl {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#moons-area-moons-tbl td, #moons-area-moons-tbl th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#moons-area-moons-tbl th {
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  font-weight: 100;
+}
+
+#moons-area-moons-tbl tr:nth-child(even) {
+  background-color: #3302223f;
+}
+
+#moons-area-moons-tbl tr:nth-child(odd) {
+  background-color: #33022230;
+}
+
+#moons-area-moons-tbl tr:hover {
+  background-color: #33022211;
+}
+
+#moons-area-moons-tbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: grey;
+  color: white;
+}
+
+a.removeLinkDecoration {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+a.specialAction {
+  color: grey !important;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 80%;
+}
+
+a.specialAction:hover {
+  text-decoration: overline underline !important;
+}
+
+.specialActionSep {
+  color: grey !important;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 80%;
+}
+
+fieldset {
+  border: 0;
+  background-color: lightgrey;
+  padding: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+fieldset input {
+  margin: 3px;
+  padding: 3px;
+}
+
+fieldset button {
+  margin: 3px;
+}
+
+.initialhide {
+  display: none;
+}
+
+#moons-area-add-moon-section {
+  padding-top: 0px;
+}
+
+#moons-area-moons-tbl {
+  margin-bottom: 5px;
+}
+
+.currSelectedPlt {
+  font-weight: 700;
+  font-size: 110%;
+}
+
+.currSelectedMnParentStyle {
+  font-weight: 700;
+  font-size: 110%;
+}
+
+.linktoeditmoon, .linktodeletemoon {
+  cursor: pointer !important;
+}
+
+table#moons-area-moons-tbl {
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1), 1px 1px 0px rgba(0, 0, 0, 0.5);
+}

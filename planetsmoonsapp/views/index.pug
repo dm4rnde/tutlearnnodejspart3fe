@@ -1,0 +1,54 @@
+extends layout
+
+block content
+  h1= title
+  
+  div.row
+  
+    #planets-area.col-3.menu
+
+      //Planets
+      #planetsList
+        ul
+
+      #planets-area-add-planet-section
+        //Add planet form
+        fieldset
+          input#inputPlName(type='text', placeholder='Name')
+          button#btnPlAdd Add
+
+      #planets-area-edit-planet-section.initialhide
+        //Edit planet form
+        fieldset
+          input#inputPlName(type='text', placeholder='Name')
+          button#btnPlEditSave &#10004;
+          button#btnPlEditCancel &#10007;
+
+    #moons-area.col-9.initialhide
+    
+      //Moons
+      #moonsList
+        table#moons-area-moons-tbl
+          thead
+            th Name
+            th Diam
+            th Discovered by
+            th
+          tbody
+      
+      #moons-area-add-moon-section.initialhide
+        //Add moon form
+        fieldset
+          input#inputMnName(type='text', placeholder='Name of the moon')
+          input#inputMnDiam(type='number', placeholder='Diameter (km)', min=1)
+          input#inputMnDiscovBy(type='text', placeholder='Discovered by')
+          button#btnMnAdd Add
+
+      #moons-area-edit-moon-section.initialhide
+        //Edit moon form
+        fieldset
+          input#inputMnName(type='text', placeholder='Name of the moon')
+          input#inputMnDiam(type='number', placeholder='Diameter (km)', min=1)
+          input#inputMnDiscovBy(type='text', placeholder='Discovered by')
+          button#btnMnEditSave &#10004;
+          button#btnMnEditCancel &#10007;
