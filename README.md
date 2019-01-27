@@ -1,9 +1,7 @@
 
 # Tutorial. Learn Node.js. Part 3: Front End.
 
-Tutorial to help learn Node.js.
-
-Details at: https://dm4rnde.com/frend-ex1
+Source code for tutorial https://dm4rnde.com/frend-ex1.
 
 
 Instructions of use:
