@@ -8,6 +8,8 @@ Instructions of use:
 
 - Clone current project
 
+- `cd tutlearnnodejspart3fe/planetsmoonsapp/`
+
 - Execute following commands:
 	
 	`npm install mongoose express body-parser --save`
