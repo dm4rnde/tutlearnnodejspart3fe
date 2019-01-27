@@ -31,6 +31,6 @@ Instructions of use:
 	
 ## Notes
 
-- **This app uses mongoDB. Please set up mongoDB and its users 
-similarly to https://dm4rnde.com/mongodb-setup.**
+- ***This app uses mongoDB. To set it up try using monodb_setup_users.txt 
+(this is short version taken from https://dm4rnde.com/mongodb-setup).***
    

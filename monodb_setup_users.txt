@@ -1,0 +1,59 @@
+# Create a 'user admin' user (admin of all users)
+
+#terminal 1
+mongod
+
+	#terminal 2
+	mongo
+	
+	db.createUser(
+	  {
+	    user: "a2d4mp",
+	    pwd: "Rf818_Gn4uytQ7",
+	    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+	  }
+	)
+	exit
+
+#terminal 1
+exit
+
+
+#Create a 'database owner' user
+
+#terminal 1
+mongod --auth --port 27017 --dbpath /data/db
+
+	#terminal 2
+	mongo --port 27017 -u "a2d4mp" -p "Rf818_Gn4uytQ7" --authenticationDatabase "admin"
+	
+	use planetsmoonsdbdev
+	
+	db.createUser(
+	  {
+	    user: "dbofpmdbj1y",
+	    pwd: "Jg7R.2rQ6,Nt",
+	    roles: [
+	         { role: "dbOwner", db: "planetsmoonsdbdev" }
+	      ]
+	  }
+	)
+	
+	exit
+
+
+	#Create a user for all CRUD operations
+	
+	mongo --port 27017 -u "dbofpmdbj1y" -p "Jg7R.2rQ6,Nt" planetsmoonsdbdev
+	
+	db.createUser(
+	  {
+	    user: "rwufpmdbyy8",
+	    pwd: "5e3E&zcWqpeP-r",
+	    roles: [
+	         { role: "readWrite", db: "planetsmoonsdbdev" }
+	      ]
+	  }
+	)
+	
+	exit
