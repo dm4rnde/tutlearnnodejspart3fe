@@ -29,3 +29,8 @@ Instructions of use:
 	- In browser open: `localhost: 8081`. Verify that web app's front end functions.
 	
 	
+## Notes
+
+- ** This app uses mongoDB. Please set up mongoDB and its users 
+similarly to https://dm4rnde.com/mongodb-setup.
+   
