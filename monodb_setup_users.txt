@@ -15,6 +15,7 @@ mongod
 	    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
 	  }
 	)
+	
 	exit
 
 #terminal 1
