@@ -31,7 +31,7 @@ Instructions of use:
 	
 ## Notes
 
-- ***This app uses mongoDB. To set prepared database (that 
+- ***This app uses MongoDB. To prepare database (that 
 web app is going to use) try going through monodb_setup_users.txt 
-(this is short version taken from https://dm4rnde.com/mongodb-setup).***
+(setup of MongoDB and longer description is at https://dm4rnde.com/mongodb-setup).***
    
