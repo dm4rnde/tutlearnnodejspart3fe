@@ -6,7 +6,8 @@ Source code for tutorial https://dm4rnde.com/frend-ex1.
 
 Having architected the back end components (mongodb; RESTful interface), this tutorial will attempted to complete all by by adding front end component to our web app.  
 
-Instructions of use:
+
+## Instructions of use:
 
 - Go through monodb_setup_users.txt 
 
