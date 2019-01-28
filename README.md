@@ -4,7 +4,7 @@
 Source code for tutorial https://dm4rnde.com/frend-ex1.
 
 
-Having architected the back end components (mongodb; RESTful API), this tutorial attempted to complete all by adding final component - the front end - to our web app.  
+Having architected the back end components (mongodb; RESTful API), this tutorial added final component - the front end - to example web app.
 
 
 ## Instructions of use:
