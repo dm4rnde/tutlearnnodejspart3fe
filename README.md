@@ -13,7 +13,7 @@ Having architected the back end components (mongodb; RESTful API), this tutorial
 
 	This will set up users for db *(some help on MongoDB install and users setup: https://dm4rnde.com/mongodb-setup)*.
 
-- Clone current project
+- Clone current project (i.e. `git clone https://github.com/dm4rnde/tutlearnnodejspart3fe.git`)
 
 - 	`cd tutlearnnodejspart3fe/planetsmoonsapp/`	
 	
