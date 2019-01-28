@@ -62,3 +62,8 @@ mongod --auth --port 27017 --dbpath /data/db
 	)
 	
 	exit
+
+
+#terminal 1	
+#(leave mongod running)
+

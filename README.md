@@ -9,9 +9,9 @@ Having architected the back end components (mongodb; RESTful API), this tutorial
 
 ## Instructions of use:
 
-- Go through monodb_setup_users.txt 
+- Go through monodb_setup.txt
 
-	This will set up users for db *(some help on MongoDB install and users setup: https://dm4rnde.com/mongodb-setup)*.
+	This will set up users for db *(some help on MongoDB install and users setup: https://dm4rnde.com/mongodb-setup)* and start mongod.
 
 - Clone current project (i.e. `git clone https://github.com/dm4rnde/tutlearnnodejspart3fe.git`)
 
