@@ -1,3 +1,7 @@
+```
+	NOTE! This code is not actively managed and dependencies might be out-of-date 
+	(because of not being up-to-date it might contain vulnerabilities)!
+```
 
 # Tutorial. Learn Node.js. Part 3: Front End.
 
